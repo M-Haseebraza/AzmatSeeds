@@ -1,0 +1,20 @@
+.products{
+    width: 100%;
+    background-color: white;
+    text-align: center;
+    font-family: var(--font);
+    padding: 50px;
+}
+.slick-slide{
+    outline: none;
+    /* width: 250px !important; */
+    /* margin: 10px; */
+}
+.products h1{
+    text-shadow: 2px 2px 3px gray;
+}
+@media screen and (max-width:804px){
+    .slick-slide{
+        font-size: small !important;
+    }
+}

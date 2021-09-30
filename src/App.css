@@ -1,0 +1,17 @@
+
+
+:root{
+    --main: limegreen;
+    --text: #252932;
+    --font: 'Montserrat', sans-serif;
+}
+.App{
+    z-index: 999;
+    width: 100%;
+    height: 100vh;
+    /* background-image: url(./1.jpg); */
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    background-image: url(././components/slider/3.jpg);
+}
