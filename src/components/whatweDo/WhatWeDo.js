@@ -1,15 +1,22 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import './whatwedo.css';
-import { MdWork } from 'react-icons/md'
+import { MdWork } from 'react-icons/md';
+import Aos from 'aos';
+
 
 const WhatWeDo = () => {
+    // useEffect(() => {
+    //     Aos.init()
+      
+    // }, [])
     return (
         <div className="what" id="what">
+            <div data-aos="" className='whatMain'>
             <h1><MdWork style={{ verticalAlign: 'bottom',color:'green',marginBottom:'2px',fontWeight:'bold' }} /> What We Do</h1>
-            <div className="whatContainer">
+            <div data-aos="flip-right" className="whatContainer ">
                 <div>
                     <img src="./img/s1.png" style={{ width: '60px', margin: "10px" }} alt="" />
-                    <h3>Seed Production/Farming</h3>
+                    <h3>Seed Farming</h3>
                     <p>The department is engaged in the production of basic seed directly and indirectly through the assistance of registered growers.</p>
                 </div>
                 <div>
@@ -23,6 +30,9 @@ const WhatWeDo = () => {
                     <p>Quality seed production involves series of processes called seed chain. One of the major step at final stage.</p>
                 </div>
             </div>
+
+            </div>
+           
         </div>
     );
 };

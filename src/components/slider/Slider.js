@@ -6,9 +6,9 @@ const DemoCarousel = () => {
         <>
             <div className="  slider-main">
             </div>
-            <div className='sliderText' >
-                <h1>WE PROVIDE QUALITY SEEDS</h1>
-                <h2>WITH BETTER YEILD</h2>
+            <div data-aos='fade-right' className='sliderText' >
+                <h1>We Provide Quality Seeds</h1>
+                <h2>With Better Yeild</h2>
 
             </div>
         </>

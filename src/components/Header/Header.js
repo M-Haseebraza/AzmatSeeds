@@ -17,11 +17,11 @@ function Header() {
                 </div>
 
                 <ul className={nav === false ? '' : 'shownav'}>
-                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="/"><FaHome /> Home</a></li>
-                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#what"><BsCardChecklist /> WhatWeDo</a></li>
-                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#product"><FaStore /> Product</a></li>
-                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#about"><BsFillInfoCircleFill /> About Us</a></li>
-                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#contactUs"><AiFillContacts /> Contact Us</a></li>
+                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="/"><FaHome className='nav-icons' /> Home</a></li>
+                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#what"><BsCardChecklist className='nav-icons' /> WhatWeDo</a></li>
+                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#product"><FaStore className='nav-icons' /> Product</a></li>
+                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#about"><BsFillInfoCircleFill className='nav-icons' /> About Us</a></li>
+                    <li className="active"><a style={{ color: "inherit", textDecoration: 'none' }} href="#contactUs"><AiFillContacts className='nav-icons' /> Contact Us</a></li>
                      
                 </ul>
                 <BiMenuAltRight className="menu" onClick={() => setNav(!nav)} />
